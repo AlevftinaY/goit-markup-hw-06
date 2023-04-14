@@ -576,8 +576,8 @@ transition: box-shadow var(--trans-nav);
     background: content-box;
 }
 .footer-modal-send{
-    display: flex;
-    width: 264px;
+    text-align: center;
+    width: 165px;
     height: 40px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -601,7 +601,9 @@ transition: box-shadow var(--trans-nav);
 }
 
 .footer-btn-send{
-    color: #E7E9FC;
+    fill: #E7E9FC;
+    margin-left: 16px;
+    
 }
 
 
