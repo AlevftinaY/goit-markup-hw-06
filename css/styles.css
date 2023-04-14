@@ -594,8 +594,6 @@ transition: box-shadow var(--trans-nav);
     transition: background-color var(--trans-nav);
     }
 
-
-
 .footer-btn{
     position: relative;
 }
@@ -605,7 +603,6 @@ transition: box-shadow var(--trans-nav);
     margin-left: 16px;
     
 }
-
 
 /*--------------------------Customers--------------------*/
 
@@ -793,7 +790,6 @@ padding-bottom: 120px;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
     padding-left: 6px;
-    
 }
 
 .modal-send{
