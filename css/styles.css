@@ -685,6 +685,10 @@ padding-bottom: 120px;
     padding: 72px 24px 24px;
 }
 
+.modal-close {
+    vertical-align: middle;
+}
+
 .modal-close-btn{
     width: 24px;
     height: 24px;
@@ -804,6 +808,7 @@ padding-bottom: 120px;
     font-size: 12px;
     display: flex;
     align-items: center;
+    margin-bottom: 24px;
 }
 
 .check-text span {
@@ -812,6 +817,15 @@ padding-bottom: 120px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    fill: transparent;
+}
+
+.input-check:checked + .check-text span {
+   background-color: #404BBF;
+    fill: #F4F4FD;
 }
 
 .input-accept{
