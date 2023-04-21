@@ -569,6 +569,7 @@ transition: box-shadow var(--trans-nav);
     display: flex;
     width: 264px;
     height: 40px;
+    color: #FFFFFF;
     border: 1px solid #999;
     border-radius: 4px;
     outline: transparent; 
