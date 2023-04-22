@@ -408,11 +408,16 @@
           </ul>
         </div>
         <div class="footer-email">
-          <p class="footer-text-soc">Subscribe</p>
-          <input type="email" id="user-email" name="user-email" class="footr-input" placeholder="E-mail"required ></div>
-
+          <form>
+            <p class="footer-text-soc">Subscribe</p>
           
-            <button class="footer-modal-send" type="submit">Subscribe<svg class="footer-btn-send" width="24" height="20"><use href="./images/icons.svg#icon-Frame"></use></svg></button>
+            <div  class="footer-form">
+              <input type="email" id="user-email" name="user-email" class="footer-input" placeholder="E-mail"required ></form>
+              
+              
+                <button class="footer-modal-send" type="submit">Subscribe<svg class="footer-btn-send" width="24" height="20"><use href="./images/icons.svg#icon-Frame"></use></svg></button>
+            </div>
+          </form>
           
         
       </div>
@@ -420,7 +425,6 @@
     <!------------------------modal-------------------------->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <p></p>
         <button class="modal-close-btn" type="button" data-modal-close>
           <svg class="modal-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
@@ -428,8 +432,8 @@
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
-
-          <div class="modal-fied">
+          <div>
+          <div class="modal-field">
             <label for="user-name" class="input-text">Name</label>
             <div class="input-wrap">
                 <input type="text" id="user-name" name="user-name" class="modal-input" required >
@@ -439,7 +443,7 @@
             </div>
           </div>
 
-          <div class="modal-fied">
+          <div class="modal-field">
             <label for="user-tel" class="input-text">Phone</label>
             <div class="input-wrap">
                 <input type="tel" id="user-tel" name="user-tel" class="modal-input" required >
@@ -449,7 +453,7 @@
             </div>
           </div>
 
-          <div class="modal-fied">
+          <div class="modal-field">
             <label for="user-email" class="input-text">Email</label>
             <div class="input-wrap">
                 <input type="email" id="user-email" name="user-email" class="modal-input" required >
@@ -461,11 +465,11 @@
 
 
 
-          <div class="modal-fied">
+          <div class="modal-field">
             <label class="input-text" for="user-comment">Comment</label>
             <textarea name="user-comment" id="user-comment" class="modal-textarea" placeholder="Text input"></textarea>
           </div>
-
+          </div>
           <div class="input-accept">
             
               <input type="checkbox" id="accept" name="accept" class="input-check visually-hidden" value="accept">
@@ -475,7 +479,7 @@
                   <svg class="check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-Vector"></use></svg>
                 </span>
-                I accept the terms and conditions of the <a class="link" href=""> Privacy Policy</a></label>
+                I accept the terms and conditions of the <a class="link-check" href=""> Privacy Policy</a></label>
             
           </div>
 
