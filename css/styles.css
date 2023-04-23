@@ -756,6 +756,7 @@ padding-bottom: 120px;
     top: 50%;
     transform: translateY(-50%);
     margin-right: 4px;
+    fill: #2E2F42;
 }
 
 .modal-input{
