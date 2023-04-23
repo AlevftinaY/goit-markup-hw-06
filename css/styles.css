@@ -393,7 +393,6 @@ flex-basis: calc((100% - 48px) / 4);
     visibility: hidden;
     }
 
-/*.team-item-title, .filtr-item{}*/
 .visually-hidden {
     position: absolute;
     width: 1px;
