@@ -564,12 +564,23 @@ transition: box-shadow var(--trans-nav);
     margin-left: 80px;
 }
 
+.footer-input::placeholder {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+
+}
+
+
+
 .footer-input {
     display: flex;
     width: 264px;
     height: 40px;
     color: #FFFFFF;
-    border: 1px solid #999;
+    border: 1px solid #FFFFFF;
     border-radius: 4px;
     outline: transparent; 
     padding-left: 16px;
@@ -757,6 +768,7 @@ padding-bottom: 120px;
     transform: translateY(-50%);
     margin-right: 4px;
     fill: #2E2F42;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input{
@@ -794,10 +806,10 @@ padding-bottom: 120px;
     letter-spacing: 0.04em;
     color: #8E8F99;
     margin-bottom: 4px;
-   /* margin-right: 36px;*/
 }
 
 .modal-textarea {
+    display: block;
     width: 100%;
     height: 120px;
     border: 1px solid #999;
@@ -820,6 +832,10 @@ padding-bottom: 120px;
     font-size: 12px;
     display: flex;
     align-items: center;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+    font-weight: 400;
+    line-height: 14px;
 }
 
 .check-text span {
@@ -837,6 +853,18 @@ padding-bottom: 120px;
 .link-check {
     text-decoration: underline;
     white-space: break-spaces;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    font-weight: 400;
+    line-height: 16px;
+    color: #4D5AE5;
+    padding-left: 3px;
+
+
+
+
 }
 
 .link-check:hover, .link-check:focus {
