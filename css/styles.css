@@ -738,7 +738,7 @@ padding-bottom: 120px;
     visibility: hidden;
     pointer-events: none;
 }
-input-accept
+
 .modal-title{
     font-size: 16px;
     font-weight: 500;
@@ -773,7 +773,7 @@ input-accept
 .modal-input{
     width: 100%;
     height: 40px;
-    border: 1px solid #999;
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     outline: transparent; 
     padding-left: 38px;
@@ -811,7 +811,7 @@ input-accept
     display: block;
     width: 100%;
     height: 120px;
-    border: 1px solid #999;
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     outline: transparent;
     padding: 10px;
